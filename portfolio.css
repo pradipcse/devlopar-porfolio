@@ -21,11 +21,12 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-content: center;
+    margin: 0px 200px;
 }
 
 .nav-title {
-    color: var(--Dark-01, #181818);
+    color:  #181818;
     font-size: 45px;
     font-weight: 800;
 }
@@ -37,10 +38,25 @@ nav>ul {
 
 nav li {
     list-style: none;
+    font-size: 21px;
     margin-right: 51px;
 }
 
 nav a {
     text-decoration: none;
     color: #474747;
+}
+/* header related styles */
+.had{
+    background-color:#FFF8F3;;
+}
+
+.bannar{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.bannar .profile-pic{
+    width: 400px;
+    height: 450px;
 }
